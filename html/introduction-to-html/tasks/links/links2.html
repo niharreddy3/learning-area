@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
@@ -8,7 +8,11 @@
       body {
         background-color: #fff;
         color: #333;
-        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        font:
+          1em / 1.4 Helvetica Neue,
+          Helvetica,
+          Arial,
+          sans-serif;
         padding: 1em;
         margin: 0;
       }
@@ -37,7 +41,7 @@
   </head>
 
   <body>
-    <section class="preview" style="height: 300px;overflow:auto">
+    <section class="preview" style="height: 300px; overflow: auto">
       <h1>List path tests</h1>
 
       <ul>
@@ -52,7 +56,7 @@
       <p id="bottom">The bottom of the page!</p>
     </section>
 
-    <textarea class="playable playable-css" style="height: 130px;">
+    <textarea class="playable playable-css" style="height: 130px">
 h1 {
   font-size: 2rem;
   margin: 0;
@@ -69,14 +73,14 @@ div {
 }
     </textarea>
 
-    <textarea class="playable playable-html" style="height: 220px;">
+    <textarea class="playable playable-html" style="height: 220px">
 <h1>List path tests</h1>
 
 <ul>
-  <li><a target="_blank">Link me to the blue whale image</a></li>
-  <li><a target="_blank">Link me to the narwhal image</a></li>
-  <li><a target="_blank">Link me to Google image search</a></li>
-  <li><a>Link me to the paragraph at the bottom of the page</a></li>
+  <li><a href="blue/blue-whale.jpg" target="_blank">Link me to the blue whale image</a></li>
+  <li><a href="../narwhal/narwhal.jpg" target="_blank">Link me to the narwhal image</a></li>
+  <li><a href="https://www.google.co.uk" target="_blank">Link me to Google image search</a></li>
+  <li><a href="#bottom">Link me to the paragraph at the bottom of the page</a></li>
 </ul>
 
 <div></div>
